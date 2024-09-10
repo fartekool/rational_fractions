@@ -18,9 +18,9 @@ int main()
 		{
 			{1, -2, -1},
 			{0, 1, -1},
-			{0, 0, 3}
 		}
 	);
-	std::cout << P.transposition() * A * P << endl;
+	A = P;
+	std::cout << A;
 	return 0;
 }

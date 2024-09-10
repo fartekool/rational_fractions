@@ -145,7 +145,7 @@ public:
 		}
 		return answer;
 	}
-	matrix& operator=(const matrix& A) const
+	matrix& operator=(const matrix& A)
 	{
 		m = A.m;
 		n = A.n;
